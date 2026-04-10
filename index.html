@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarcasm OS</title>
+    <!-- Use a Google Font to make it feel premium and hacky -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Sarcasm OS - The most disappointing operating system on the web.">
+</head>
+
+<body>
+    <!-- Overlay for glitch effect -->
+    <div id="glitch-overlay" class="hidden"></div>
+
+    <!-- Screen Shake Container -->
+    <div id="os-container">
+
+        <!-- =======================
+             1. BOOT SCREEN 
+             ======================= -->
+        <div id="boot-screen">
+            <h1 class="glitch-text" data-text="SARCASM_OS">SARCASM_OS</h1>
+            <div class="terminal-text" id="boot-text"></div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="boot-progress"></div>
+            </div>
+            <!-- Input to grab {username} -->
+            <input type="text" id="username-input" class="hidden terminal-input"
+                placeholder="Enter your unfortunate name..." autocomplete="off">
+        </div>
+
+        <!-- =======================
+             MAIN DESKTOP UI 
+             ======================= -->
+        <div id="main-ui" class="hidden">
+            <header>
+                <h2>Sarcasm OS v1.0.0</h2>
+
+                <!-- 5. PERSONALITY MODES -->
+                <div class="personality-toggles">
+                    <button class="mode-btn active" data-mode="savage">Savage 🔥</button>
+                    <button class="mode-btn" data-mode="passive">Passive Aggressive 😒</button>
+                    <button class="mode-btn" data-mode="nice">Fake Nice 🙂</button>
+                </div>
+            </header>
+
+            <div class="desktop-content">
+
+                <!-- =======================
+                     8. FAKE TERMINAL / AI 
+                     ======================= -->
+                <div class="window" id="terminal-window">
+                    <div class="window-header">
+                        <span>Terminal of Disappointment</span>
+                        <div class="window-controls">
+                            <!-- Try to click the red button... -->
+                            <span class="control red tooltip" data-tip="Do not click" id="close-terminal-btn"></span>
+                            <span class="control yellow"></span>
+                            <span class="control green"></span>
+                        </div>
+                    </div>
+
+                    <div class="window-body" id="chat-history">
+                        <!-- Bot intro will be formatted with {username} -->
+                        <p class="bot-msg">Oh look, {username} is here. Prepare to be underwhelmed.</p>
+                    </div>
+
+                    <div class="window-input">
+                        <span class="prompt-symbol">root@{username}:~#</span>
+                        <input type="text" id="cmd-input" autocomplete="off"
+                            placeholder="Type a command or cry about it...">
+                    </div>
+                </div>
+
+                <!-- SIDE PANEL -->
+                <div class="side-panel">
+
+                    <!-- =======================
+                         2. RANDOM SARCASM ENGINE 
+                         ======================= -->
+                    <div class="widget shadow-panel">
+                        <h3>Sarcasm Engine</h3>
+                        <button id="sarcasm-btn" class="glitch-btn">Generate Roast</button>
+                        <p id="sarcasm-output" class="sarcasm-text">Click the button, if you have the brainpower.</p>
+                    </div>
+
+                    <!-- =======================
+                         3. CHAOS ZONE 
+                         ======================= -->
+                    <div class="widget chaos-panel shadow-panel" id="chaos-zone">
+                        <h3>Chaos Zone</h3>
+                        <button id="chaos-btn" class="run-btn">DO NOT CLICK</button>
+                        <button id="multiply-btn" class="run-btn multiply">Click Me?</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- =======================
+             6. FAKE ERROR POPUPS 
+             ======================= -->
+        <div id="popup-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
