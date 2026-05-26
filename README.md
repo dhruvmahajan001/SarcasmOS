@@ -43,11 +43,11 @@ SarcasmOS is not just a website — it is a playful digital experience designed 
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="Screenshots/logo.png" width="800"/>
+  <img src="Screenshot/logo.png" width="800"/>
 </p>
 
 <p align="center">
-  <img src="Screenshots/main.png" width="800"/>
+  <img src="Screenshot/mainpage.png" width="800"/>
 </p>
 
 
