@@ -1,6 +1,19 @@
 # SarcasmOS 😏💻
 
-SarcasmOS is a creative and humorous web project inspired by a futuristic operating system with sarcastic vibes, interactive UI elements, smooth animations, and modern frontend design.
+## 🎯 About the Project
+
+SarcasmOS is a fun and creatively designed web project that mimics a futuristic operating system with a sarcastic personality. The website combines humor, modern UI design, smooth animations, and interactive frontend elements to create an entertaining user experience.
+
+Inspired by cyberpunk-style interfaces and meme culture, SarcasmOS focuses on delivering witty interactions and visually engaging effects while showcasing frontend development skills using HTML, CSS, and JavaScript.
+
+The project was built to experiment with:
+- Creative UI/UX design
+- Interactive web animations
+- Futuristic operating system aesthetics
+- Humor-driven web experiences
+- Responsive frontend development
+
+SarcasmOS is not just a website — it is a playful digital experience designed to feel like interacting with a sarcastic virtual operating system.
 
 🌐 Live Website: https://sarcasmos.netlify.app  
 💻 GitHub Repo: https://github.com/dhruvmahajan001/SarcasmOS
@@ -30,11 +43,11 @@ SarcasmOS is a creative and humorous web project inspired by a futuristic operat
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/home.png" width="800"/>
+  <img src="Screenshots/home.png" width="800"/>
 </p>
 
 <p align="center">
-  <img src="screenshots/about.png" width="800"/>
+  <img src="Screenshots/about.png" width="800"/>
 </p>
 
 
