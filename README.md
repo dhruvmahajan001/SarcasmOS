@@ -26,13 +26,17 @@ SarcasmOS is a creative and humorous web project inspired by a futuristic operat
 
 ---
 
+
 ## 📸 Screenshots
 
-_Add your project screenshots here_
+<p align="center">
+  <img src="screenshots/home.png" width="800"/>
+</p>
 
-```bash
-/screenshots
-```
+<p align="center">
+  <img src="screenshots/about.png" width="800"/>
+</p>
+
 
 ---
 
